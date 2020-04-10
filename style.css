@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 90%;
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: 'Baloo Chettan 2', cursive;
+}
+header{
+	height: 23vh;
+	width: 100%;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.top{
+	height: 3vh;
+	width: 100%;
+	border-bottom: 0.25px #abc solid;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.left > a, .right > a{
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+.banner{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.25px #abc solid;
+}
+.banner > div{
+	margin-top: -1vh;
+}
+h1{
+	font-size: 3.5em;
+}
+h2{
+	font-size: 2.5em;
+}
+nav{
+	height: 5vh;
+	width: 65%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+nav > a{
+	transition: 0.5s;
+}
+nav > a:hover{
+	color: lightblue;
+}
+.nav{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	border-bottom: 0.25px #abc solid;
+}
+.last_blocks{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	margin-top: 2vh;
+	justify-content: space-around;
+}
+[class*="image-content"]{
+	width: 25%;
+	height: 100%;
+	background: grey;
+	padding: 30px;
+}
+.image-content1{
+	background: url(flower.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.image-content2{
+	background: url(keyboard.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.image-content3{
+	background: url(space.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.white_block{
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	flex-direction: column;
+}
+.white_block p{
+	padding: 20px;
+}
